@@ -8,6 +8,11 @@
 
 }
 
+.footer {
+    text-align: center;
+    list-style: none;
+}
+
 .menu-text hide-for-small-only .search {
     border-radius: 10px;
 }

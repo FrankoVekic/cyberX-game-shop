@@ -129,90 +129,81 @@
         <hr>
         <div class="grid-x align-bottom">
           <div class="medium-4 cell">
-            <h4>Top Products</h4>
+            <h4>Where can you find us?</h4>
             <div class="media-object">
               <div class="media-object-section">
-                <img class="thumbnail" src="https://placehold.it/100x100">
+                <img class="thumbnail" src="/includes/images/gamestores/osijek.jpg">
               </div>
               <div class="media-object-section">
-                <h5>Nunc Eu Ullamcorper Orci</h5>
-                <p>Quisque eget odio ac lectus vestibulum faucibus eget in metus. In pellentesque.</p>
+                <h5>OSIJEK</h5>
               </div>
             </div>
             <div class="media-object">
               <div class="media-object-section">
-                <img class="thumbnail" src="https://placehold.it/100x100">
+                <img class="thumbnail" src="/includes/images/gamestores/zagreb.jpg">
               </div>
               <div class="media-object-section">
-                <h5>Nunc Eu Ullamcorper Orci</h5>
-                <p>Quisque eget odio ac lectus vestibulum faucibus eget in metus. In pellentesque.</p>
+              <h5>ZAGREB</h5>
               </div>
             </div>
             <div class="media-object">
               <div class="media-object-section">
-                <img class="thumbnail" src="https://placehold.it/100x100">
+                <img class="thumbnail" src="/includes/images/gamestores/rijeka.jpg">
               </div>
               <div class="media-object-section">
-                <h5>Nunc Eu Ullamcorper Orci</h5>
-                <p>Quisque eget odio ac lectus vestibulum faucibus eget in metus. In pellentesque.</p>
+              <h5>RIJEKA</h5>
               </div>
             </div>
           </div>
           <div class="medium-4 cell">
             <div class="media-object">
               <div class="media-object-section">
-                <img class="thumbnail" src="https://placehold.it/100x100">
+                <img class="thumbnail" src="/includes/images/gamestores/zadar.jpg">
               </div>
               <div class="media-object-section">
-                <h5>Nunc Eu Ullamcorper Orci</h5>
-                <p>Quisque eget odio ac lectus vestibulum faucibus eget in metus. In pellentesque.</p>
-              </div>
-            </div>
-            <div class="media-object">
-              <div class="media-object-section">
-                <img class="thumbnail" src="https://placehold.it/100x100">
-              </div>
-              <div class="media-object-section">
-                <h5>Nunc Eu Ullamcorper Orci</h5>
-                <p>Quisque eget odio ac lectus vestibulum faucibus eget in metus. In pellentesque.</p>
+              <h5>ZADAR</h5>
               </div>
             </div>
             <div class="media-object">
               <div class="media-object-section">
-                <img class="thumbnail" src="https://placehold.it/100x100">
+                <img class="thumbnail" src="/includes/images/gamestores/Vukovar.jpg">
               </div>
               <div class="media-object-section">
-                <h5>Nunc Eu Ullamcorper Orci</h5>
-                <p>Quisque eget odio ac lectus vestibulum faucibus eget in metus. In pellentesque.</p>
+              <h5>VUKOVAR</h5>
+              </div>
+            </div>
+            <div class="media-object">
+              <div class="media-object-section">
+                <img class="thumbnail" src="/includes/images/gamestores/dubrovnik.jpg">
+              </div>
+              <div class="media-object-section">
+                <h5>DUBROVNIK</h5>
               </div>
             </div>
           </div>
           <div class="medium-4 cell">
             <div class="media-object">
               <div class="media-object-section">
-                <img class="thumbnail" src="https://placehold.it/100x100">
+                <img class="thumbnail" src="/includes/images/gamestores/vinkovci.jpg">
               </div>
               <div class="media-object-section">
-                <h5>Nunc Eu Ullamcorper Orci</h5>
-                <p>Quisque eget odio ac lectus vestibulum faucibus eget in metus. In pellentesque.</p>
-              </div>
-            </div>
-            <div class="media-object">
-              <div class="media-object-section">
-                <img class="thumbnail" src="https://placehold.it/100x100">
-              </div>
-              <div class="media-object-section">
-                <h5>Nunc Eu Ullamcorper Orci</h5>
-                <p>Quisque eget odio ac lectus vestibulum faucibus eget in metus. In pellentesque.</p>
+                <h5>VINKOVCI</h5>
               </div>
             </div>
             <div class="media-object">
               <div class="media-object-section">
-                <img class="thumbnail" src="https://placehold.it/100x100">
+                <img class="thumbnail" src="/includes/images/gamestores/sb.jpg">
               </div>
               <div class="media-object-section">
-                <h5>Nunc Eu Ullamcorper Orci</h5>
-                <p>Quisque eget odio ac lectus vestibulum faucibus eget in metus. In pellentesque.</p>
+                <h5>SLAVONSKI BROD</h5>
+              </div>
+            </div>
+            <div class="media-object">
+              <div class="media-object-section">
+                <img class="thumbnail" src="/includes/images/gamestores/karlovac.jpg">
+              </div>
+              <div class="media-object-section">
+                <h5>KARLOVAC</h5>
               </div>
             </div>
           </div>
@@ -245,6 +236,7 @@
           </div>
           </article>
         </footer>
-    <?php require_once '../includes/branched/javascript.php' ?>
+        <?php require_once '../includes/branched/footer.php';
+              require_once '../includes/branched/javascript.php'; ?>
   </body>
 </html>
