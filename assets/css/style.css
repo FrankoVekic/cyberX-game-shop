@@ -1,0 +1,72 @@
+.button {
+    border-radius: 8px;
+    padding: 15px 30px;
+    color: #000;
+    display: inline-block;
+    background: #ffce54;
+    text-decoration: none;
+
+}
+
+.menu-text hide-for-small-only .search {
+    border-radius: 10px;
+}
+
+input[type=search] {
+    padding: 4px 12px;
+    border-radius: 8px;
+}
+
+.fi-pencil {
+    margin: 3px;
+}
+
+.fi-torsos-all {
+    margin: 3px;
+}
+
+.fi-power {
+    margin: 3px;
+}
+
+.fi-puzzle {
+    margin:3px;
+}
+
+.fi-home {
+    margin:3px;
+}
+
+@media (max-width:656px) {
+    
+    .button {
+        margin-left: 4px;
+        display: inline-block;
+        color: #000;
+        background: #ffce54;
+        text-decoration: none;
+    }
+
+    input[type=search] {
+        padding: 4px 12px;
+        border-radius: 8px;
+        display: inline-block;
+    }
+}
+
+@media (max-width:416px) {
+    
+    .button {
+        margin-left: 4px;
+        display: inline-block;
+        color: #000;
+        background: #ffce54;
+        text-decoration: none;
+    }
+
+    input[type=search] {
+        
+        border-radius: 8px;
+        display: inline-block;
+    }
+}
