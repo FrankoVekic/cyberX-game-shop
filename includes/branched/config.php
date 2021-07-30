@@ -8,6 +8,6 @@ $appName = 'CyberX Games';
 $appLink = 'http://mojaaplikacija.xyz/';
 
 $users = [
-        'oper@ednova.hr' => 'o',
+        'oper@edunova.hr' => 'o',
         'franko@edunova.hr' => 'f'
 ];

@@ -1,5 +1,7 @@
 <?php 
   require_once '../includes/branched/config.php'; 
+  siteProtection ($appLink);
+
 ?>
 <html class="no-js" lang="en">
   <head>
@@ -65,64 +67,58 @@
           <a href="#" class="button expanded">Buy</a>
         </div>
         <div class="cell">
-          <img class="thumbnail" src="/includes//images//toprated/crysis3.jpg">
+          <img class="thumbnail" src="/includes/images/toprated/crysis3.jpg">
           <h5>Crysis 3</h5>
           <p>$39.99</p>
           <a href="#" class="button expanded">Buy</a>
         </div>
       </div>
     
-        <hr>
-    
-        <div class="grid-x cell">
-          <div class="callout small-12 primary">
-            <h3>Really big special this week on items.</h3>
-          </div>
-        </div>
+      
     
         <hr>
     
         <div class="text-center">
-          <h2>Some Other Neat Products</h2>
+          <h2>UPCOMING GAMES in 2020</h2>
           <hr>
         </div>
     
         <div class="grid-x grid-margin-x small-up-2 medium-up-3 large-up-6">
           <div class="cell">
-            <img class="thumbnail" src="https://placehold.it/300x400">
-            <h5>Nulla At Nulla Justo, Eget</h5>
-            <p>$400</p>
-            <a href="#" class="button small expanded hollow">Buy</a>
+            <img class="thumbnail" src="../includes/images/upcoming/ark2.jpg">
+            <h5>Ark II</h5>
+            <p>$79.99</p>
+            <a href="#" class="button small expanded hollow">Preorder</a>
           </div>
           <div class="cell">
-            <img class="thumbnail" src="https://placehold.it/300x400">
-            <h5>Nulla At Nulla Justo, Eget</h5>
-            <p>$400</p>
-            <a href="#" class="button small expanded hollow">Buy</a>
+            <img class="thumbnail" src="../includes/images/upcoming/batman.jpg">
+            <h5>Gotham Knights</h5>
+            <p>$89.99</p>
+            <a href="#" class="button small expanded hollow">Preorder</a>
           </div>
           <div class="cell">
-            <img class="thumbnail" src="https://placehold.it/300x400">
-            <h5>Nulla At Nulla Justo, Eget</h5>
-            <p>$400</p>
-            <a href="#" class="button small expanded hollow">Buy</a>
+            <img class="thumbnail" src="../includes/images/upcoming/callisto.jpg">
+            <h5>Callisto Protocol</h5>
+            <p>$100</p>
+            <a href="#" class="button small expanded hollow">Preorder</a>
           </div>
           <div class="cell">
-            <img class="thumbnail" src="https://placehold.it/300x400">
-            <h5>Nulla At Nulla Justo, Eget</h5>
-            <p>$400</p>
-            <a href="#" class="button small expanded hollow">Buy</a>
+            <img class="thumbnail" src="../includes/images/upcoming/gt7.jpg">
+            <h5>Gran Turismo 7</h5>
+            <p>$89.99</p>
+            <a href="#" class="button small expanded hollow">Preorder</a>
           </div>
           <div class="cell">
-            <img class="thumbnail" src="https://placehold.it/300x400">
-            <h5>Nulla At Nulla Justo, Eget</h5>
-            <p>$400</p>
-            <a href="#" class="button small expanded hollow">Buy</a>
+            <img class="thumbnail" src="../includes/images/upcoming/splatoon.jpg">
+            <h5>Splatoon 3</h5>
+            <p>$49.99</p>
+            <a href="#" class="button small expanded hollow">Preorder</a>
           </div>
           <div class="cell">
-            <img class="thumbnail" src="https://placehold.it/300x400">
-            <h5>Nulla At Nulla Justo, Eget</h5>
-            <p>$400</p>
-            <a href="#" class="button small expanded hollow">Buy</a>
+            <img class="thumbnail" src="../includes/images/upcoming/forespoken.jpg">
+            <h5>Forspoken</h5>
+            <p>$79.99</p>
+            <a href="#" class="button small expanded hollow">Preorder</a>
           </div>
         </div>
     

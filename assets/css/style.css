@@ -1,3 +1,8 @@
+*{
+    font-family: 'Alegreya Sans SC', sans-serif;
+    font-family: 'Audiowide', cursive;
+    font-family: 'Syncopate', sans-serif;
+}
 .button {
     border-radius: 8px;
     padding: 15px 30px;
@@ -40,6 +45,44 @@ input[type=search] {
 
 .fi-home {
     margin:3px;
+}
+.content {
+    height: 100%;
+    width: 100%;
+    
+}
+
+.content1 {
+    position: relative;
+    text-align: center;
+    margin: 0 auto;
+    top: 40%;
+}
+
+.content1 h1 {
+    font-size: 48px;
+    color: #ffce54;
+    margin: 0;
+    font-weight: 100;
+    font-family: 'Alegreya Sans SC', sans-serif;
+    font-family: 'Audiowide', cursive;
+}
+
+.content1 h2 {
+    font-size: 48px;
+    color: #ffcf549f;
+    opacity: 0.7;
+    margin: 0;
+    font-weight: 100;
+    font-family: 'Alegreya Sans SC', sans-serif;
+    font-family: 'Audiowide', cursive;
+}
+
+.login-box {
+  background: #fff;
+  border: 1px solid #ddd; 
+  margin: 100px 0;
+  padding: 40px 20px 0 20px;
 }
 
 @media (max-width:656px) {

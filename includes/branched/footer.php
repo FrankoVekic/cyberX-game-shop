@@ -1,5 +1,5 @@
 <div class="footer">
-    CyberX Games d.o.o. © 2021
+    &copy; <?php echo $appName, ' ', date('Y'); ?>
   </div>
   <div id="footermenu">
     <ul class="menu align-center">
