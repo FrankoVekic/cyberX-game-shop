@@ -22,9 +22,9 @@
         <a href="register.php" class="button">Register</a>
     </div>
   </div>
-
-
   <?php 
     require_once '../includes/branched/footer.php';
     require_once '../includes/branched/javascript.php'; 
   ?>
+  </body>
+</html>

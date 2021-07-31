@@ -31,6 +31,7 @@
       <div class="row">
         <div class="large-12 large-centered columns">
           <input type="submit" class="button expand" value="Log In"/>
+          <p><a href="register.php">Don't have an account?</a></p>
         </div>
       </div>
     </form>
