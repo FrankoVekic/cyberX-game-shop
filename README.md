@@ -20,4 +20,4 @@
 
 - [x] 10. Na javnom dijelu aplikacije postaviti link na github kod
 
-- [ ] 11. Na privatnom dijelu aplikacije staviti link na ERA dijagram
+- [x] 11. Na privatnom dijelu aplikacije staviti link na ERA dijagram
