@@ -1,7 +1,7 @@
 *{
     font-family: 'Alegreya Sans SC', sans-serif;
-    font-family: 'Audiowide', cursive;
     font-family: 'Syncopate', sans-serif;
+    
 }
 .button {
     border-radius: 8px;
@@ -16,6 +16,14 @@
 .footer {
     text-align: center;
     list-style: none;
+    font-size: 18px;
+    color: #ffce54;
+}
+
+#footermenu i {
+    text-align: center;
+    list-style: none;
+    color: #ffce54;
 }
 
 .menu-text hide-for-small-only .search {
@@ -48,10 +56,8 @@ input[type=search] {
 }
 .content {
     height: 100%;
-    width: 100%;
-    
+    width: 100%; 
 }
-
 .content1 {
     position: relative;
     text-align: center;
@@ -59,10 +65,47 @@ input[type=search] {
     top: 40%;
 }
 
+p{
+    font-family: 'JetBrains Mono', monospace;
+    font-family: 'Manjari', sans-serif;
+}
+
+h3{
+    font-family: 'Alegreya Sans SC', sans-serif;
+}
+
+input[type="text"]{
+    font-family: 'Roboto', sans-serif;
+}
+
+input[type="password"]{
+    font-family: 'Roboto', sans-serif;
+}
+
+.errortext{
+    color: red;
+}
+
+.frontpage{
+    background-image: url(../../includes/images/backgrounds/darkgrey.jpg);
+    background-size: cover;
+}
+
+h5 {
+    font-family: 'JetBrains Mono', monospace;
+    font-family: 'Manjari', sans-serif;
+    font-size: 20px;
+    color: #f8c033;
+}
+
+.register-btn{
+    margin-top: 20px;
+}
+
 .content1 h1 {
     font-size: 48px;
     color: #ffce54;
-    margin: 0;
+    margin: -10px;
     font-weight: 100;
     font-family: 'Alegreya Sans SC', sans-serif;
     font-family: 'Audiowide', cursive;
@@ -71,8 +114,8 @@ input[type=search] {
 .content1 h2 {
     font-size: 48px;
     color: #ffcf549f;
-    opacity: 0.7;
-    margin: 0;
+    opacity: 0.9;
+    margin: 10px;
     font-weight: 100;
     font-family: 'Alegreya Sans SC', sans-serif;
     font-family: 'Audiowide', cursive;

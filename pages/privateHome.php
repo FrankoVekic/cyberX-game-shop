@@ -1,6 +1,7 @@
 <?php 
   require_once '../includes/branched/config.php'; 
-  siteProtection ($appLink);
+  include_once '../includes/branched/protected.php';
+  siteProtected($appLink);
 
 ?>
 <html class="no-js" lang="en">
@@ -13,8 +14,6 @@
    <?php 
   require_once '../includes/branched/header.php';
    ?>
-    <!-- End Top Bar -->
-    
     <div class="orbit" role="region" aria-label="Favorite Space Pictures" data-orbit data-options="animInFromLeft:fade-in; animInFromRight:fade-in; animOutToLeft:fade-out; animOutToRight:fade-out;">
       <ul class="orbit-container">
         <button class="orbit-previous"><span class="show-for-sr">Previous Slide</span>&#9664;&#xFE0E;</button>
@@ -52,25 +51,25 @@
           <img class="thumbnail" src="/includes/images/toprated/doom.jpg">
           <h5>Doom</h5>
           <p>$49.99</p>
-          <a href="#" class="button expanded">Buy</a>
+          <a href="#" class="button expanded"><i class="fi-shopping-cart"></i>Add to Cart</a>
         </div>
         <div class="cell">
           <img class="thumbnail" src="/includes/images/toprated/fifa20.png">
           <h5>Fifa 20</h5>
           <p>$59.99</p>
-          <a href="#" class="button expanded">Buy</a>
+          <a href="#" class="button expanded"><i class="fi-shopping-cart"></i>Add to Cart</a>
         </div>
         <div class="cell">
           <img class="thumbnail" src="/includes/images/toprated/fallout.jpg">
           <h5>Fallout 4</h5>
           <p>$49.99</p>
-          <a href="#" class="button expanded">Buy</a>
+          <a href="#" class="button expanded"><i class="fi-shopping-cart"></i>Add to Cart</a>
         </div>
         <div class="cell">
           <img class="thumbnail" src="/includes/images/toprated/crysis3.jpg">
           <h5>Crysis 3</h5>
           <p>$39.99</p>
-          <a href="#" class="button expanded">Buy</a>
+          <a href="#" class="button expanded"><i class="fi-shopping-cart"></i>Add to Cart</a>
         </div>
       </div>
     

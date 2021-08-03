@@ -1,7 +1,7 @@
 <?php 
   require_once '../includes/branched/config.php'; 
-  siteProtection ($appLink);
-
+  include_once '../includes/branched/protected.php';
+  siteProtected($appLink);
 ?>
 <html class="no-js" lang="en">
   <head>

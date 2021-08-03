@@ -11,7 +11,7 @@
   require_once '../includes/branched/head.php';
     ?>
   </head>
-  <body>
+  <body class="frontpage">
   <div class="content">
    <?php 
   require_once '../includes/branched/header.php';
@@ -19,7 +19,8 @@
    <div class="content1">
         <h1><?=$appName;?></h1>
         <h2>where the magic happens.</h2>
-        <a href="register.php" class="button">Register</a>
+       
+       <div class="register-btn"> <a href="register.php" class="button">Register</a> </div>
     </div>
   </div>
   <?php 

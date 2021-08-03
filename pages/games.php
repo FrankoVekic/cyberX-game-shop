@@ -12,13 +12,12 @@
   require_once '../includes/branched/header.php';
    ?>
   
-  <div class="text-center">
-      <h2>TOP RATED GAMES THIS WEEK</h2>
+ 
       <hr>
-    </div>
+   
     
     <article class="grid-container">
-      <div class="grid-x grid-margin-x small-up-2 medium-up-2 large-up-5">
+      <div class="grid-x grid-margin-x small-up-2 medium-up-3 large-up-6">
         <div class="cell">
           <img class="thumbnail" src="/includes/images/buy/apex.jpg">
           <h5>Apex Legends</h5>
@@ -39,7 +38,7 @@
         </div>
         <div class="cell">
           <img class="thumbnail" src="/includes/images/buy/cyberpunk.jpg">
-          <h5>Cyber Punk 2077</h5>
+          <h5>Cyber Punk</h5>
           <p>$59.99</p>
           <a href="#" class="button expanded"><i class="fi-shopping-cart"></i>Add to Cart</a>
         </div>
@@ -49,10 +48,16 @@
           <p>$49.99</p>
           <a href="#" class="button expanded"><i class="fi-shopping-cart"></i>Add to Cart</a>
         </div>
+        <div class="cell">
+          <img class="thumbnail" src="/includes/images/buy/minecraft.jpg">
+          <h5>Minecraft</h5>
+          <p>$10.99</p>
+          <a href="#" class="button expanded"><i class="fi-shopping-cart"></i>Add to Cart</a>
+        </div>
       </div>
       <br>
       <article class="grid-container">
-      <div class="grid-x grid-margin-x small-up-2 medium-up-2 large-up-5">
+      <div class="grid-x grid-margin-x small-up-2 medium-up-3 large-up-6">
         <div class="cell">
           <img class="thumbnail" src="/includes/images/buy/daysgone.jpg">
           <h5>Days Gone</h5>
@@ -83,10 +88,16 @@
           <p>$35.99</p>
           <a href="#" class="button expanded"><i class="fi-shopping-cart"></i>Add to Cart</a>
         </div>
+        <div class="cell">
+          <img class="thumbnail" src="/includes/images/buy/minecraft.jpg">
+          <h5>Minecraft</h5>
+          <p>$10.99</p>
+          <a href="#" class="button expanded"><i class="fi-shopping-cart"></i>Add to Cart</a>
+        </div>
       </div>
       <br>
       <article class="grid-container">
-      <div class="grid-x grid-margin-x small-up-2 medium-up-2 large-up-5">
+      <div class="grid-x grid-margin-x small-up-2 medium-up-3 large-up-6">
         <div class="cell">
           <img class="thumbnail" src="/includes/images/buy/minecraft.jpg">
           <h5>Minecraft</h5>
@@ -117,10 +128,16 @@
           <p>$64.99</p>
           <a href="#" class="button expanded"><i class="fi-shopping-cart"></i>Add to Cart</a>
         </div>
+        <div class="cell">
+          <img class="thumbnail" src="/includes/images/buy/minecraft.jpg">
+          <h5>Minecraft</h5>
+          <p>$10.99</p>
+          <a href="#" class="button expanded"><i class="fi-shopping-cart"></i>Add to Cart</a>
+        </div>
       </div>
       <br>
       <article class="grid-container">
-      <div class="grid-x grid-margin-x small-up-2 medium-up-2 large-up-5">
+      <div class="grid-x grid-margin-x small-up-2 medium-up-3 large-up-6">
         <div class="cell">
           <img class="thumbnail" src="/includes/images/buy/dyinglight.jpg">
           <h5>Dying Light 2</h5>
@@ -135,7 +152,7 @@
         </div>
         <div class="cell">
           <img class="thumbnail" src="/includes/images/buy/ageofem.jpg">
-          <h5>Age of Empires IV</h5>
+          <h5>Age of Empires</h5>
           <p>$39.99</p>
           <a href="#" class="button expanded"><i class="fi-shopping-cart"></i>Add to Cart</a>
         </div>
@@ -147,14 +164,20 @@
         </div>
         <div class="cell">
           <img class="thumbnail" src="/includes/images/buy/littlenightmares.png">
-          <h5>Little Nightmares II</h5>
+          <h5>Little Nightmares</h5>
           <p>$20.99</p>
+          <a href="#" class="button expanded"><i class="fi-shopping-cart"></i>Add to Cart</a>
+        </div>
+        <div class="cell">
+          <img class="thumbnail" src="/includes/images/buy/minecraft.jpg">
+          <h5>Minecraft</h5>
+          <p>$10.99</p>
           <a href="#" class="button expanded"><i class="fi-shopping-cart"></i>Add to Cart</a>
         </div>
       </div>
       <br>
       <article class="grid-container">
-      <div class="grid-x grid-margin-x small-up-2 medium-up-2 large-up-5">
+      <div class="grid-x grid-margin-x small-up-2 medium-up-3 large-up-6">
         <div class="cell">
           <img class="thumbnail" src="/includes/images/buy/evilgen.jpg">
           <h5>Evil Genius 2</h5>
@@ -185,17 +208,18 @@
           <p>$42.99</p>
           <a href="#" class="button expanded"><i class="fi-shopping-cart"></i>Add to Cart</a>
         </div>
+        <div class="cell">
+          <img class="thumbnail" src="/includes/images/buy/minecraft.jpg">
+          <h5>Minecraft</h5>
+          <p>$10.99</p>
+          <a href="#" class="button expanded"><i class="fi-shopping-cart"></i>Add to Cart</a>
+        </div>
       </div>
 
       <div class="grid-x grid-margin-x">
           <div class="medium-6 cell">
-            <h3>Order a game</h3>
-            <p>Vivamus hendrerit arcu sed erat molestie vehicula. Sed auctor neque eu tellus rhoncus ut eleifend nibh porttitor. Ut in nulla enim. Phasellus molestie magna non est bibendum non venenatis nisl tempor. Suspendisse dictum feugiat nisl ut dapibus. Mauris iaculis porttitor.</p>
-            <ul class="menu">
-              <li><a href="#">Dribbble</a></li>
-              <li><a href="#">Facebook</a></li>
-              <li><a href="#">Yo</a></li>
-            </ul>
+            <h3>Don't see the game you are looking for?</h3>
+            <p>You can very easily order the game if we do not have it in the store. Write us the name of the game and for which console you want it. We will do our best to get it as soon as possible. The approximate feedback time is one week. Leave us your contact details.</p>
           </div>
           <div class="medium-6 cell">
             <label>Name
@@ -206,7 +230,7 @@
             </label>
             <label>
               Message
-              <textarea placeholder="holla at a designer"></textarea>
+              <textarea placeholder="Message"></textarea>
             </label>
             <input type="submit" class="button expanded" value="Submit">
           </div>

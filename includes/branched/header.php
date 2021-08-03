@@ -23,7 +23,7 @@
         <ul class="menu vertical medium-horizontal">
           <li><a href="<?php echo $appLink; ?>pages/privateHome.php"><i class="fi-home"></i>Home</a></li>
           <li><a href="<?php echo $appLink; ?>pages/games.php"><i class="fi-puzzle"></i>Games</a></li>
-          <?php if(isset($_SESSION['authorisation'])){
+          <?php if(isset($_SESSION['username'])){
              echo '<li><a href="http://mojaaplikacija.xyz/pages/cart.php"><i class="fi-shopping-cart"></i>Cart</a></li>';
              echo '<li><a href="http://mojaaplikacija.xyz/pages/erdiagram.php"><i class="fi-graph-trend"></i>ER Diagram</a></li>';
              echo '<li><a href="http://mojaaplikacija.xyz/pages/aboutus.php"><i class="fi-torsos-all"></i>About Us</a></li>';
