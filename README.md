@@ -1,5 +1,9 @@
 # cyberX-game-shop
 
+This website allows you to purchase PC and PS games, if you want to purchase you need to create an account. Also, if you do not see the desired game, contact us and we will do our best to get it just for you!
+
+<hr>
+
 - [x] 1. Za razvoj aplikacije se koristi Foundation RWD framework
 
 - [x] 2. Aplikacija mora imati javni i privatni dio
