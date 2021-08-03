@@ -8,7 +8,7 @@
 
 - [x] 4. Autorizacija se izvršava na osnovu podataka u php datoteci
 
-- [x] 5. Na stranici autorizacije postaviti minimalno 2 korisnika i lozinke za spajanje
+- [x] 5. ~~Na stranici autorizacije postaviti minimalno 2 korisnika i lozinke za spajanje.~~ Spojiti se na bazu podataka.
 
 - [ ] 6.Privatni dio mora omogućiti CRUD - unos, čitanje, promjenu i brisanje svih podataka na jedan entitet Vašeg završnog rada koja nije vezana u nekim drugim tablicama vanjskim ključem. Podaci se pohranjuju u Session.
 
