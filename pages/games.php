@@ -49,9 +49,9 @@
           <a href="#" class="button expanded"><i class="fi-shopping-cart"></i>Add to Cart</a>
         </div>
         <div class="cell">
-          <img class="thumbnail" src="/includes/images/buy/minecraft.jpg">
-          <h5>Minecraft</h5>
-          <p>$10.99</p>
+          <img class="thumbnail" src="/includes/images/buy/acody.png">
+          <h5>AC Odyssey</h5>
+          <p>$49.99</p>
           <a href="#" class="button expanded"><i class="fi-shopping-cart"></i>Add to Cart</a>
         </div>
       </div>
@@ -89,9 +89,9 @@
           <a href="#" class="button expanded"><i class="fi-shopping-cart"></i>Add to Cart</a>
         </div>
         <div class="cell">
-          <img class="thumbnail" src="/includes/images/buy/minecraft.jpg">
-          <h5>Minecraft</h5>
-          <p>$10.99</p>
+          <img class="thumbnail" src="/includes/images/buy/ashen.jpg">
+          <h5>Ashen</h5>
+          <p>$29.99</p>
           <a href="#" class="button expanded"><i class="fi-shopping-cart"></i>Add to Cart</a>
         </div>
       </div>
@@ -129,9 +129,9 @@
           <a href="#" class="button expanded"><i class="fi-shopping-cart"></i>Add to Cart</a>
         </div>
         <div class="cell">
-          <img class="thumbnail" src="/includes/images/buy/minecraft.jpg">
-          <h5>Minecraft</h5>
-          <p>$10.99</p>
+          <img class="thumbnail" src="/includes/images/buy/fallout.png">
+          <h5>Fallout 76</h5>
+          <p>$43.99</p>
           <a href="#" class="button expanded"><i class="fi-shopping-cart"></i>Add to Cart</a>
         </div>
       </div>
@@ -169,9 +169,9 @@
           <a href="#" class="button expanded"><i class="fi-shopping-cart"></i>Add to Cart</a>
         </div>
         <div class="cell">
-          <img class="thumbnail" src="/includes/images/buy/minecraft.jpg">
-          <h5>Minecraft</h5>
-          <p>$10.99</p>
+          <img class="thumbnail" src="/includes/images/buy/vampyr.jpg">
+          <h5>Vampyr</h5>
+          <p>$28.30</p>
           <a href="#" class="button expanded"><i class="fi-shopping-cart"></i>Add to Cart</a>
         </div>
       </div>
@@ -209,13 +209,13 @@
           <a href="#" class="button expanded"><i class="fi-shopping-cart"></i>Add to Cart</a>
         </div>
         <div class="cell">
-          <img class="thumbnail" src="/includes/images/buy/minecraft.jpg">
-          <h5>Minecraft</h5>
-          <p>$10.99</p>
+          <img class="thumbnail" src="/includes/images/buy/bf5.jpg">
+          <h5>Battlefield V</h5>
+          <p>$59.99</p>
           <a href="#" class="button expanded"><i class="fi-shopping-cart"></i>Add to Cart</a>
         </div>
       </div>
-
+      <hr>
       <div class="grid-x grid-margin-x">
           <div class="medium-6 cell">
             <h3>Don't see the game you are looking for?</h3>

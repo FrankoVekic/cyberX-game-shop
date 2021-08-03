@@ -37,9 +37,9 @@
         <div class="grid-x align-center">
           <div class="cell medium-8">
             <div class="blog-post">
-              <h3>Awesome blog post title <small>3/6/2016</small></h3>
+              <h3>Massive giveaway <small>3/6/2016</small></h3>
               <img class="thumbnail" src="../includes/images/news/gamestore1.jpg">
-              <p>The year 2020 was very successful for CyberX Games. In 2020, we employed over 100 people in 10 different cities. Our plan in the future is to open 10 more stores in 5 other cities in the Republic of Croatia and move our stores outside Croatia. We hope to do that by the end of this year.</p>
+              <p>The Republic of Croatia has helped us collect a lot of new PC games. As a gift, we received two hundred new and one hundred older PC games. On the occasion of the good intentions of our beautiful, we give away 50 games of your choice. All you have to do is log in to our new website. </p>
               <div class="callout">
                 <ul class="menu simple">
                 <li><a href="#">Author: Franko Vekić</a></li>

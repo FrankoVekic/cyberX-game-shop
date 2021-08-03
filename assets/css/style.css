@@ -86,6 +86,13 @@ input[type="password"]{
     color: red;
 }
 
+.ertext{
+    font-family: 'Alegreya Sans SC', sans-serif;
+    font-family: 'Syncopate', sans-serif;
+    font-size: 50px;
+    font-weight: bold;
+}
+
 .frontpage{
     background-image: url(../../includes/images/backgrounds/darkgrey.jpg);
     background-size: cover;
