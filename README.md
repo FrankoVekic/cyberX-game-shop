@@ -6,7 +6,7 @@
 
 - [x] 3. Aplikacija mora biti prilagodljiva minimalno dvoje različitim širinama zalona (RWD) - sadržaj mora biti čitljiv, vidljiv, dobro organiziran za obje širine zaslona
 
-- [x] 4. Autorizacija se izvršava na osnovu podataka u php datoteci
+- [x] 4. ~~Autorizacija se izvršava na osnovu podataka u php datoteci~~ Korisnik se spaja putem baze podataka.
 
 - [x] 5. ~~Na stranici autorizacije postaviti minimalno 2 korisnika i lozinke za spajanje.~~ Spojiti se na bazu podataka.
 
