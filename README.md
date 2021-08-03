@@ -14,10 +14,10 @@
 
 - [ ] 7. Postaviti na hosting aplikaciju
 
-- [ ] 8. Postaviti na github kod
+- [x] 8. Postaviti na github kod
 
 - [x] 9. U readme.md napisati koje su točke realizirane
 
-- [ ] 10. Na javnom dijelu aplikacije postaviti link na github kod
+- [x] 10. Na javnom dijelu aplikacije postaviti link na github kod
 
 - [ ] 11. Na privatnom dijelu aplikacije staviti link na ERA dijagram
