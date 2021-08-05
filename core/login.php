@@ -29,15 +29,10 @@ if(isset($_POST['login']))
     }
 }
 
-
 function userLogin($conn,$username,$password){
 
     $query = $conn->prepare("SELECT * FROM users WHERE username=:username");
-
-
     $query->bindParam(":username",$username);
-    
-
     $query->execute();
     $user = $query->fetch();
 
