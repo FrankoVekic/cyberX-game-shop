@@ -70,5 +70,14 @@ insert into game (name,price,memory_required,console,game_image) values
 ('It Takes Two',49.99,45,'PC','/includes/images/buy/ittakestwo.png'),
 ('Valheim',39.99,40,'PC&PS4','/includes/images/buy/Valheim.jpg'),
 ('Scorn',42.99,60,'PC','/includes/images/buy/Scorn.jpg'),
-('Battlefield V',59.99,80,'PC&PS4','/includes/images/buy/bf5.jpg');
-
+('Battlefield V',59.99,80,'PC&PS4','/includes/images/buy/bf5.jpg'),
+('Doom',49.99,50,'PC','/includes/images/toprated/doom.jpg'),
+('Fifa 20',59.99,50,'PC&PS4','/includes/images/toprated/fifa20.png'),
+('Fallout 4',49.99,60,'PC','/includes/images/toprated/fallout.jpg'),
+('Crysis 3',39.99,60,'PC','/includes/images/toprated/crysis3.jpg'),
+('Ark II',79.99,70,'PC','../includes/images/upcoming/ark2.jpg'),
+('Gotham Knights',89.99,75,'PC','../includes/images/upcoming/batman.jpg'),
+('Callisto Protocol',100,80,'PC','../includes/images/upcoming/callisto.jpg'),
+('Gran Turismo 7',89.99,65,'PC','../includes/images/upcoming/gt7.jpg'),
+('Splatoon 3',49.99,40,'PC&PS4','../includes/images/upcoming/splatoon.jpg'),
+('Forspoken',79.99,60,'PC','../includes/images/upcoming/forespoken.jpg');
