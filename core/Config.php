@@ -1,4 +1,5 @@
 <?php 
+
 $appName = 'CyberX Games';
 $appLink = 'http://mojaaplikacija.xyz/';
 

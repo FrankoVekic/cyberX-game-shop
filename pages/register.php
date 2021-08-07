@@ -68,6 +68,12 @@
           else if($_GET['error'] == 'weak_password'){
             echo '<p class="errortext">The password must contain at least 6 characters, one uppercase letter, one lowercase letter and one number.</p>';
           }
+          else if($_GET['error'] == 'userExists'){
+            echo '<p class="errortext">Username is already in use!</p>';
+          }
+          else if($_GET['error'] == 'emailExists'){
+            echo '<p class="errortext">Email is already in use!</p>';
+          }
         }
       ?>
 

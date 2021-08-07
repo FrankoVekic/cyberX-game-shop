@@ -30,6 +30,14 @@ if(isset($_POST['register']))
         header("location:" . $appLink . "pages/register.php?error=weak_password");
         exit();
     }
+    else if(chekcUsername($conn,$username,$email)!==false){
+        header("location:" . $appLink . "pages/register.php?error=userExists");
+        exit();
+    }
+    else if(chekcEmail($conn,$email)!==false){
+        header("location:" . $appLink . "pages/register.php?error=emailExists");
+        exit();
+    }
     else {
     if (registerUser($conn,$firstname,$lastname,$username,$email,$password));
     {
@@ -41,6 +49,30 @@ if(isset($_POST['register']))
 function hashPw($password){
     $hashedPw = password_hash($password,PASSWORD_DEFAULT);
     return $hashedPw;
+}
+
+function chekcUsername($conn,$username){
+    $query = $conn->prepare("SELECT * FROM users WHERE username=:username");
+    $query->bindParam(":username",$username);
+    $query->execute();
+    if($query->rowCount()>0){
+        return true;
+    }
+    else {
+        return false;
+    }
+}
+
+function chekcEmail($conn,$email){
+    $query = $conn->prepare("SELECT * FROM users WHERE email=:email");
+    $query->bindParam(":email",$email);
+    $query->execute();
+    if($query->rowCount()>0){
+        return true;
+    }
+    else {
+        return false;
+    }
 }
 
 function registerUser($conn,$firstname,$lastname,$username,$email,$password)
