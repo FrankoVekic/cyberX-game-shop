@@ -14,7 +14,7 @@
 
 <div class="callout large primary" style="background-image: url('../includes/images/backgrounds/particles1.jpg');">
 <div class="text-center">
-<a href="https://github.com/FrankoVekic/cyberX-game-shop" class="alert button large">GITHUB CODE</a>
+<a href="https://github.com/FrankoVekic/cyberX-game-shop"  class="alert button large" target="_blank">GITHUB CODE</a>
 </div>
     </div>
     

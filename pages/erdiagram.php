@@ -24,7 +24,7 @@
       <div class="grid-x align-center">
         <div class="cell medium-8">
           <div class="blog-post">
-            <h3><a href="https://github.com/FrankoVekic/cyberX-game-shop/blob/master/db.sql">ER diagram</a></h3>
+            <h3><a href="https://github.com/FrankoVekic/cyberX-game-shop/blob/master/db.sql" target="blank">ER diagram</a></h3>
             <img class="thumbnail" src="../diagram.jpg">
             <code><br>drop database if exists game_shop;<br>
                   create database game_shop;<br>
@@ -35,12 +35,13 @@
                   create table game(<br>
                   id int not null primary key auto_increment,<br>
                   name varchar(300),<br>
-                  price decimal(18,4),<br>
+                  price decimal(18,2),<br>
                   description varchar(300),<br>
-                  version varchar(200),<br>
-                  memory_required int,<br>
+                  quantity int(11) NOT NULL,<br>
+                  memory_required int not null,<br>
                   max_players int,<br>
-                  console varchar(50)<br>
+                  console varchar(50),<br>
+                  game_image varchar(100) not null<br>
                   );<br>
                  
                   <hr>

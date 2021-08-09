@@ -32,7 +32,7 @@
               <input type="hidden" name="hidden_price" value="<?=$product['price']?>">
               <input type="hidden" name="hidden_console" value="<?=$product['console']?>">
               <input type="hidden" name="hidden_image" value="<?=$product['game_image']?>">
-              <button type="submit" name="add_to_cart" class="button expanded"><i class="fi-shopping-cart"></i>Add to Cart</button>
+              <button type="submit" name="add" class="button expanded"><i class="fi-shopping-cart"></i>Add to Cart</button>
             </form>
         <?php }
             ?>

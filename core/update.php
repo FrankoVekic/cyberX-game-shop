@@ -36,10 +36,10 @@
             <td class="text-center"><?php echo $value['game_name'] ?></td>
             <td class="text-center">$<?php echo $value['game_price'] ?></td>
             <td class="text-center"><?php echo $value['game_console']?></td>
-            <form method="POST" action="../core/update.php">
-            <td class="text-center"> <?php echo $value['game_quantity'] ?></td>
+            <form method="POST" action="../pages/cart.php?action=update&id=<?php echo $value['game_id'];?>">
+            <td class="text-center"><input type="number" name="newQuan" value="<?php echo $value['game_quantity'] ?>"></td>
             <td class="text-center">$<?php echo number_format($value['game_quantity'] * $value['game_price'],2)?></td>
-            <td class="text-center"><button type="submit" name="update" class="button">Update</button><br><br><a href="cart.php?action=delete&id=<?php echo $value['game_id'];?>"><span>Remove</span></a></td>
+            <td class="text-center"><button type="submit" name="update" class="button">Set</button><br><br><a href="cart.php?action=delete&id=<?php echo $value['game_id'];?>"><span>Remove</span></a></td>
             </form>
           </tr>
         <?php
@@ -47,7 +47,7 @@
           }
           ?>
           
-          <td colspan="5" class="text-left"><a href="cart.php?action=clear"><span>Clear</span></a></td>
+          <td colspan="5" class="text-left"><a href="../pages/cart.php?action=clear&id=<?php echo $value['game_id'];?>"><span>Clear</span></a></td>
           <td class="text-center">$<?php echo number_format($total,2); ?></td>
           <td class="text-center"><a href="cart.php?action=checkout"><span>Checkout</span></a></td>
           <?php
