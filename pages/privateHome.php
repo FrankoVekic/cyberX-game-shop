@@ -52,11 +52,25 @@
       <div class="grid-x grid-margin-x small-up-2 medium-up-2 large-up-4">
       <?php foreach ($gameshome as $product): ?>
         <div class="cell">
-        <a href="index.php?page=product&id=<?=$product['id']?>">
+        
             <img class="thumbnail" src="<?=$product['game_image']?>" alt="<?=$product['name']?>">
             <h5><?=$product['name']?></h5>
             <p>$<?=$product['price']?></p>
-            <a href="index.php?page=product&id=<?=$product['id']?>" name="add" class="button expanded"><i class="fi-shopping-cart"></i>Add to Cart</a>
+            <?php 
+            if(!isset($_SESSION['username'])){ 
+              echo '';
+            }
+            else { ?>
+            <form action="cart.php?action=game&id=<?=$product['id']?>" method="POST">
+              <input type="number" name="quantity" value="1" min="1" max="<?=$product['quantity']?>" placeholder="Quantity" required>
+              <input type="hidden" name="hidden_name" value="<?=$product['name']?>">
+              <input type="hidden" name="hidden_price" value="<?=$product['price']?>">
+              <input type="hidden" name="hidden_console" value="<?=$product['console']?>">
+              <input type="hidden" name="hidden_image" value="<?=$product['game_image']?>">
+              <button type="submit" name="add" class="button expanded"><i class="fi-shopping-cart"></i>Add to Cart</button>
+            </form>
+        <?php }
+            ?>
             </div>
         <?php endforeach; ?>
       </div>
@@ -68,11 +82,24 @@
         <div class="grid-x grid-margin-x small-up-2 medium-up-3 large-up-6">
         <?php foreach ($gamespre as $product): ?>
         <div class="cell">
-        <a href="index.php?page=product&id=<?=$product['id']?>">
             <img class="thumbnail" src="<?=$product['game_image']?>" alt="<?=$product['name']?>">
             <h5><?=$product['name']?></h5>
             <p>$<?=$product['price']?></p>
-            <a href="index.php?page=product&id=<?=$product['id']?>" name="add" class="button small expanded hollow"><i class="fi-shopping-cart"></i>Preorder</a>
+            <?php 
+            if(!isset($_SESSION['username'])){ 
+              echo '';
+            }
+            else { ?>
+            <form action="cart.php?action=game&id=<?=$product['id']?>" method="POST">
+              <input type="number" name="quantity" value="1" min="1" max="<?=$product['quantity']?>" placeholder="Quantity" required>
+              <input type="hidden" name="hidden_name" value="<?=$product['name']?>">
+              <input type="hidden" name="hidden_price" value="<?=$product['price']?>">
+              <input type="hidden" name="hidden_console" value="<?=$product['console']?>">
+              <input type="hidden" name="hidden_image" value="<?=$product['game_image']?>">
+              <button type="submit" name="add" class="button expanded">Preorder</button>
+            </form>
+        <?php }
+            ?>
             </div>
         <?php endforeach; ?>
         </div>
