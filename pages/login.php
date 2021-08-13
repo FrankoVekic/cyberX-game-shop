@@ -11,7 +11,7 @@
    <?php 
   require_once '../includes/branched/header.php';
    ?>
-
+   
 <div class="large-3 large-centered columns">
   <div class="login-box">
   <div class="row">
@@ -32,7 +32,14 @@
           <input type="submit" name="login" class="button expand" value="Log In"/>
           <p><a href="register.php">Don't have an account?</a></p>
         </div>
+      <div class="adminRole">
+        <div class="callout">
+        <p>Login as administrator.</p>
+          <p>Username: admin@edunova.hr</p>
+          <p>Password: Admin123</p>
+        </div>
       </div>
+    </div>
       <?php 
         if(isset($_GET['error'])){
           if($_GET['error'] == 'loginError'){

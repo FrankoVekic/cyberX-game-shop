@@ -10,9 +10,15 @@
     display: inline-block;
     background: #ffce54;
     text-decoration: none;
-
 }
 
+.adminRole{
+    font-size: 20px;
+}
+
+.updateForm{
+    margin: 15px;
+}
 .responsive-card-table {
     border-collapse: collapse;
   }
@@ -81,7 +87,11 @@
       z-index: 0;
     }
   }
-  
+.adminimg{
+    height: 110px;
+    width: 190px;
+  }
+
 .cartimg{
     height: 120px;
     width: 130px;
@@ -146,14 +156,6 @@ p{
 
 h3{
     font-family: 'Alegreya Sans SC', sans-serif;
-}
-
-input[type="text"]{
-    font-family: 'Roboto', sans-serif;
-}
-
-input[type="password"]{
-    font-family: 'Roboto', sans-serif;
 }
 
 .errortext{

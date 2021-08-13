@@ -16,17 +16,37 @@ if(isset($_POST['login']))
         exit();
     }
     else {
-         if(userLogin($conn,$username,$password)!==false){
-            header("location: ../pages/login.php?error=loginError");
+        if(adminLogin($user,$username,$password)==false){
+            
+            $_SESSION['admin'] = $username;
+            header("location:" . $appLink . "pages/privateHome.php");
+            exit();
+        }
+        else if(userLogin($conn,$username,$password)!==false){
+            header("location:" . $appLink . "pages/login.php?error=loginError");
             exit();
     }
-    else {
-        $_SESSION['username'] = $username;
-        header("location: ../pages/privateHome.php");
-        exit();
+         else {
+            $_SESSION['username'] = $username;
+            header("location:" . $appLink . "pages/privateHome.php");
+            exit();
+                    }
+        }
+}
+
+
+function adminLogin($user,$username,$password){
+
+    foreach ($user as $admin => $adminPw){
+        if($admin === $username && $adminPw === $password){
+            return false;
+        }
+        else {
+            return true;
         }
     }
 }
+
 
 function userLogin($conn,$username,$password){
 
@@ -42,4 +62,3 @@ function userLogin($conn,$username,$password){
         return true;
     }
 }
-

@@ -13,3 +13,7 @@ $gameshome = $stmt->fetchAll(PDO::FETCH_ASSOC);
 $stmt = $conn->prepare('SELECT * FROM game WHERE id > 34 ORDER BY id ASC LIMIT 6');
 $stmt->execute();
 $gamespre = $stmt->fetchAll(PDO::FETCH_ASSOC);
+
+$stmt = $conn->prepare('SELECT * FROM game WHERE id > 40 ORDER BY id ASC LIMIT 6');
+$stmt->execute();
+$gamesnew = $stmt->fetchAll(PDO::FETCH_ASSOC);

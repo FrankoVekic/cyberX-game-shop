@@ -30,6 +30,13 @@
              echo '<li><a href="http://mojaaplikacija.xyz/pages/logout.php"><i class="fi-power"></i>Logout</a></li>';
             
           } 
+          else if(isset($_SESSION['admin'])){
+            echo '<li><a href="http://mojaaplikacija.xyz/pages/cart.php"><i class="fi-shopping-cart"></i>Cart</a></li>';
+            echo '<li><a href="http://mojaaplikacija.xyz/pages/erdiagram.php"><i class="fi-graph-trend"></i>ER Diagram</a></li>';
+            echo '<li><a href="http://mojaaplikacija.xyz/pages/adminTable.php"><i class="fi-checkbox"></i>Admin</a></li>';
+            echo '<li><a href="http://mojaaplikacija.xyz/pages/aboutus.php"><i class="fi-torsos-all"></i>About Us</a></li>';
+            echo '<li><a href="http://mojaaplikacija.xyz/pages/logout.php"><i class="fi-power"></i>Logout</a></li>';
+          }
           else {
             echo '<li><a href="http://mojaaplikacija.xyz/pages/aboutus.php"><i class="fi-torsos-all"></i>About Us</a></li>';
             echo '<li><a href="http://mojaaplikacija.xyz/pages/login.php"><i class="fi-pencil"></i>Login</a></li>';

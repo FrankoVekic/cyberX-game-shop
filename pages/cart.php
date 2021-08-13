@@ -1,6 +1,7 @@
 <?php 
   require_once '../includes/branched/config.php'; 
   include_once '../includes/branched/protected.php';
+  require_once '../core/Config.php';
   siteProtected($appLink);
 ?>
 <html class="no-js" lang="en">
@@ -32,7 +33,7 @@
           foreach($_SESSION['shopping_cart'] as $games => $value)
           {?>
         <tr>
-            <td><?php echo '<img class="cartimg" src="' .$value['game_image']. '"'; ?></td>
+            <td><?php echo '<img class="cartimg" src="' .$BUY_PATH .''.$value['game_image']. '"'; ?></td>
             <td class="text-center"><?php echo $value['game_name'] ?></td>
             <td class="text-center">$<?php echo $value['game_price'] ?></td>
             <td class="text-center"><?php echo $value['game_console']?></td>

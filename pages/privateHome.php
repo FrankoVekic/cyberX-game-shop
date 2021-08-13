@@ -3,11 +3,9 @@
   include_once '../includes/branched/protected.php';
   require_once '../core/Config.php';
   require_once '../core/findGames.php';
-
-
   siteProtected($appLink);
-
 ?>
+
 <html class="no-js" lang="en">
   <head>
    <?php
@@ -47,17 +45,16 @@
       <h2>TOP RATED GAMES THIS WEEK</h2>
       <hr>
     </div>
-    
     <article class="grid-container">
       <div class="grid-x grid-margin-x small-up-2 medium-up-2 large-up-4">
       <?php foreach ($gameshome as $product): ?>
         <div class="cell">
         
-            <img class="thumbnail" src="<?=$product['game_image']?>" alt="<?=$product['name']?>">
+            <img class="thumbnail" src="<?=$BUY_PATH.$product['image']?>" alt="<?=$product['name']?>">
             <h5><?=$product['name']?></h5>
             <p>$<?=$product['price']?></p>
             <?php 
-            if(!isset($_SESSION['username'])){ 
+            if(!isset($_SESSION['username']) && !isset($_SESSION['admin'])){ 
               echo '';
             }
             else { ?>
@@ -66,7 +63,7 @@
               <input type="hidden" name="hidden_name" value="<?=$product['name']?>">
               <input type="hidden" name="hidden_price" value="<?=$product['price']?>">
               <input type="hidden" name="hidden_console" value="<?=$product['console']?>">
-              <input type="hidden" name="hidden_image" value="<?=$product['game_image']?>">
+              <input type="hidden" name="hidden_image" value="<?=$product['image']?>">
               <button type="submit" name="add" class="button expanded"><i class="fi-shopping-cart"></i>Add to Cart</button>
             </form>
         <?php }
@@ -82,11 +79,11 @@
         <div class="grid-x grid-margin-x small-up-2 medium-up-3 large-up-6">
         <?php foreach ($gamespre as $product): ?>
         <div class="cell">
-            <img class="thumbnail" src="<?=$product['game_image']?>" alt="<?=$product['name']?>">
+            <img class="thumbnail" src="<?=$BUY_PATH.$product['image']?>" alt="<?=$product['name']?>">
             <h5><?=$product['name']?></h5>
             <p>$<?=$product['price']?></p>
             <?php 
-            if(!isset($_SESSION['username'])){ 
+            if(!isset($_SESSION['username']) && !isset($_SESSION['admin'])){
               echo '';
             }
             else { ?>
@@ -95,7 +92,7 @@
               <input type="hidden" name="hidden_name" value="<?=$product['name']?>">
               <input type="hidden" name="hidden_price" value="<?=$product['price']?>">
               <input type="hidden" name="hidden_console" value="<?=$product['console']?>">
-              <input type="hidden" name="hidden_image" value="<?=$product['game_image']?>">
+              <input type="hidden" name="hidden_image" value="<?=$product['image']?>">
               <button type="submit" name="add" class="button expanded">Preorder</button>
             </form>
         <?php }

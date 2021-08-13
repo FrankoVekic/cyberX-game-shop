@@ -6,3 +6,7 @@ session_start();
 
 $appName = 'CyberX Games';
 $appLink = 'http://mojaaplikacija.xyz/';
+
+$user = [
+    'admin@edunova.hr' => 'Admin123'
+];

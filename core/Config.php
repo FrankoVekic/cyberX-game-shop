@@ -2,6 +2,10 @@
 
 $appName = 'CyberX Games';
 $appLink = 'http://mojaaplikacija.xyz/';
+$PATH = "D:/pp23/mojaaplikacija.xyz/includes/images/buy/";
+$BUY_PATH = "../includes/images/buy/";
+$TOP_RATED = "/includes/images/toprated/";
+$UPCOMING = "/includes/images/upcoming/";
 
 class Config {
     
