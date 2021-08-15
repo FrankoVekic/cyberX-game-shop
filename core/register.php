@@ -40,7 +40,9 @@ if(isset($_POST['register']))
     }
     else {
     if (registerUser($conn,$firstname,$lastname,$username,$email,$password));
-    {
+    {   
+        $_SESSION['msg'] = "You successfully registered.";
+        $_SESSION['type'] = "success";
         header("location:" . $appLink . "pages/login.php?register=success");
         exit();
         }

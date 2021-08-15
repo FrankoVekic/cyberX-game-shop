@@ -11,12 +11,12 @@
    <?php 
   require_once '../includes/branched/header.php';
    ?>
-
-
+   
 <div class="large-3 large-centered columns">
   <div class="login-box">
   <div class="row">
   <div class="large-12 columns">
+  <h2 style="font-size: 45px;">Register</h2>
     <form action="../core/register.php" method="POST">
     <div class="row">
          <div class="large-12 columns">
@@ -51,7 +51,7 @@
       <div class="row">
         <div class="large-12 large-centered columns">
           <input type="submit" name="register" class="button expand" value="Register"/>
-          <p><a href="#">Already have an account?</a></p>
+          <p><a href="login.php">Already have an account?</a></p>
         </div>
       </div>
       <?php 
@@ -76,14 +76,11 @@
           }
         }
       ?>
-
     </form>
   </div>
 </div>
 </div>
 </div>
-
-
 <?php require_once '../includes/branched/footer.php';
       require_once '../includes/branched/javascript.php'; ?>
   </body>

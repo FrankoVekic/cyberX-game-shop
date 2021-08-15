@@ -1,3 +1,5 @@
+<footer>
+<div class="push"></div>
 <div class="footer">
     &copy; <?php echo $appName, ' ', date('Y'); ?>
   </div>
@@ -8,3 +10,4 @@
       <li><a href="#"><i class="fi-social-instagram"></i></a></li>
     </ul>
   </div>
+</footer>

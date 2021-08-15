@@ -18,7 +18,6 @@ class Config {
 
         try {
             $conn = new PDO("mysql:host=$host;dbname=$dbName",$username,$password);
-
             $conn->setAttribute(PDO::ATTR_ERRMODE,PDO::ERRMODE_WARNING);
 
         }catch(PDOException $e)

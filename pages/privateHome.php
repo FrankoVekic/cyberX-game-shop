@@ -3,9 +3,11 @@
   include_once '../includes/branched/protected.php';
   require_once '../core/Config.php';
   require_once '../core/findGames.php';
-  siteProtected($appLink);
-?>
 
+
+  siteProtected($appLink);
+
+?>
 <html class="no-js" lang="en">
   <head>
    <?php
@@ -45,6 +47,7 @@
       <h2>TOP RATED GAMES THIS WEEK</h2>
       <hr>
     </div>
+    
     <article class="grid-container">
       <div class="grid-x grid-margin-x small-up-2 medium-up-2 large-up-4">
       <?php foreach ($gameshome as $product): ?>

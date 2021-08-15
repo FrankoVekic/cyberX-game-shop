@@ -11,11 +11,18 @@
    <?php 
   require_once '../includes/branched/header.php';
    ?>
-   
+<?php if(isset($_SESSION['msg'])): ?>
+    <div class="callout <?=$_SESSION['type']?>">
+    <?php echo $_SESSION['msg'];
+          unset($_SESSION['msg']);
+    ?>
+    </div>
+    <?php endif; ?>
 <div class="large-3 large-centered columns">
   <div class="login-box">
   <div class="row">
   <div class="large-12 columns">
+    <h2 style="font-size: 45px;">Login</h2>
     <form action="../core/login.php" method="POST">
        <div class="row">
          <div class="large-12 columns">
@@ -33,7 +40,7 @@
           <p><a href="register.php">Don't have an account?</a></p>
         </div>
       <div class="adminRole">
-        <div class="callout">
+        <div class="callout primary">
         <p>Login as administrator.</p>
           <p>Username: admin@edunova.hr</p>
           <p>Password: Admin123</p>

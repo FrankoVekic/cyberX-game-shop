@@ -8,3 +8,10 @@ if(!isset($_SESSION['username']) && !isset($_SESSION['admin'])){
     exit();
     }
 }
+
+function adminProtection($appLink){
+    if(!isset($_SESSION['admin'])){
+        header("location:" . $appLink ."pages/privateHome.php");
+        exit();
+        }
+    }

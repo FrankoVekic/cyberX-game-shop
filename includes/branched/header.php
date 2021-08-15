@@ -1,3 +1,4 @@
+<div class="headerr">
 <div class="title-bar" data-responsive-toggle="mainNavigation" data-hide-for="large">
       <div class="title-bar-left">
         <button class="menu-icon" type="button" data-toggle="mainNavigation"></button>
@@ -44,3 +45,4 @@
         </ul>
       </div>
     </div>
+</div>
