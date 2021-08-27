@@ -16,7 +16,7 @@ This website allows you to purchase PC and PS games, if you want to purchase you
 
 - [x] 6.Privatni dio mora omogućiti CRUD - unos, čitanje, promjenu i brisanje svih podataka na jedan entitet Vašeg završnog rada koja nije vezana u nekim drugim tablicama vanjskim ključem. Podaci se pohranjuju u Session.
 
-- [ ] 7. Postaviti na hosting aplikaciju
+- [x] 7. Postaviti na hosting aplikaciju
 
 - [x] 8. Postaviti na github kod
 
